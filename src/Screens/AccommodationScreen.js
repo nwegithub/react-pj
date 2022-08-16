@@ -14,7 +14,6 @@ const AccommodationScreen = () =>{
                 </TouchableOpacity>
                 <View style={{height:1,backgroundColor:color.gray}}/>
 
-
                 <TouchableOpacity style={{flexDirection:'row', justifyContent:'space-between',margin:10}}>
                     <Text style={{fontSize:16,fontWeight:'bold', color:color.gray}}>Cancellations</Text>
                     <Image source={require('../../assets/icon/forward.png')} style={{width:20,height:20}}/>
